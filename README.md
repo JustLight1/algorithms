@@ -5,7 +5,7 @@
 <details>
   <summary>
     <b>
-      B. Застёжка-молния (<a href="sprint_0/zipper.py">zipper.py</a>)
+      B. Застёжка-молния (<a href="yandex_contest/sprint_0/zipper.py">zipper.py</a>)
     </b>
   </summary>
 
