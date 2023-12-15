@@ -17,16 +17,16 @@ Return the number of items that match the given rule.
 
 
 def countMatches(items, rulekey, rulevalue):
-        rule_mapping = {
+    rule_mapping = {
             "type": 0,
             "color": 1,
             "name": 2,
         }
-        ret = 0
-        for item in items:
-            print(item)
-            idx = rule_mapping[rulekey]
-            if item[idx] == rulevalue:
-                ret += 1
-        
-        return ret
+    ret = 0
+    for item in items:
+        print(item)
+        idx = rule_mapping[rulekey]
+        if item[idx] == rulevalue:
+            ret += 1
+
+    return ret
